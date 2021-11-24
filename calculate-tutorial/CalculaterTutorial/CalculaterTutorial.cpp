@@ -7,12 +7,14 @@ int main()
     double y = 0.0;
     double result = 0.0;
     char oper = '+';
+    char quit;
 
     std::cout << "Calculator tutorial" << std::endl;
-    std::cout << "Please enter the operation to perform. Format: a+b | a-b | a*b | a/b" << std::endl;
-
+    std::cout << "Please enter the operation to perform. Format: calc [a+b | a-b | a*b | a/b]" << std::endl;
+    
     Calculator calculator;
-    while (true) 
+    bool calculate = true;
+    while (calculate) 
     {
         std::cin >> x >> oper >> y;
 
@@ -25,6 +27,17 @@ int main()
         {
             result = calculator.Calculate(x, oper, y);
             std::cout << "This result is " << result << std::endl;
+        }
+
+        std::cout << "Do you want to quit? (y/n)" << std::endl;
+        std::cin >> quit;
+        if (quit == 'y') 
+        {
+            calculate = false;
+        }
+        else
+        {
+            std::cout << "Enter another calculation and I will amaze you again!" << std::endl;
         }
     }
     
