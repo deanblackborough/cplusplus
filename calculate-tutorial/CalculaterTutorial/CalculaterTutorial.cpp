@@ -9,8 +9,8 @@ int main()
     char oper = '+';
     char quit;
 
-    std::cout << "Calculator tutorial" << std::endl;
-    std::cout << "Please enter the operation to perform. Format: calc [a+b | a-b | a*b | a/b]" << std::endl;
+    std::cout << "Calculator" << std::endl;
+    std::cout << "Please enter the operation to perform. Format: [a+b | a-b | a*b | a/b | a%b]" << std::endl;
     
     Calculator calculator;
     bool calculate = true;
@@ -37,7 +37,7 @@ int main()
         }
         else
         {
-            std::cout << "Enter another calculation and I will amaze you again!" << std::endl;
+            std::cout << "Enter another calculation and I will amaze you Jack!" << std::endl;
         }
     }
     
