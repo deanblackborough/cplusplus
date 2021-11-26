@@ -1,4 +1,4 @@
-#include "Calculator.h"
+#include "../include/Calculator.h"
 
 double Calculator::Calculate(double x, char oper, double y)
 {
