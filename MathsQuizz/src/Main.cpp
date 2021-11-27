@@ -27,13 +27,14 @@ int main()
 		} 
 		else 
 		{
-			std::cout << "Oops, you selected an option I don't yet support!" << std::endl;
-			std::cout << "Bye" << std::endl;
-			std::cin.get();
-			return 0;
+			std::cout << "Oops, you selected an option not shown, I'm going to pick an option for you!" << std::endl;
+			question_type = 1;
+			std::cout << "Your long multiplication question is: " << std::endl;
 		}
 
 		// Question
+
+
 
 		std::cout << "Do you want another question? (y/n)" << std::endl;
 		std::cin >> quit;
