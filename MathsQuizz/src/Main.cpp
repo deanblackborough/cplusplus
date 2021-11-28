@@ -2,9 +2,9 @@
 
 int main()
 {
-	char quit;
-	int question_type;
-	bool quizz = true;
+	char quit = {};
+	int question_type = {};
+	bool quizz = { true };
 
 	std::cout << "Welcome to MathsQuizz" << std::endl;
 	std::cout << "Time for some maths questions!" << std::endl;
