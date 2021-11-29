@@ -12,6 +12,8 @@ _deps
 
 .vs/
 
+*.aps
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
