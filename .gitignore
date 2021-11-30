@@ -11,6 +11,9 @@ CTestTestfile.cmake
 _deps
 
 .vs/
+*.vcxproj.user
+
+*.aps
 
 # Build results
 [Dd]ebug/
